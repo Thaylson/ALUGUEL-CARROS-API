@@ -1,6 +1,6 @@
 # Aluguel Carros API
 
-API simples para gerenciamento de aluguel de carros, com autenticacao via JWT e uma interface web basica.
+Projeto de estudo de um sistema de aluguel de carros. Inclui uma API REST construída em Node.js (Express), persistência em PostgreSQL e autenticação com JWT. Também conta com um front-end web simples para testar as funcionalidades. O foco é praticar modelagem relacional, SQL, rotas REST, controle de acesso por roles (admin/cliente) e integração front-end ↔ API.
 
 ## Tecnologias
 - Node.js
@@ -52,3 +52,10 @@ Abra o arquivo [frontend/index.html](frontend/index.html) no navegador para usar
 ## Observacoes
 - O arquivo `.env` nao deve ser commitado.
 - Use o `.env.example` como referencia.
+
+## Próximos passos
+- CRUD completo de clientes
+- Interface admin completa
+- Validação de payload
+- Controle de disponibilidade de carros
+- Logs e rate limit no login
